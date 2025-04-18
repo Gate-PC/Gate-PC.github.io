@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gate PC</title>
+    <link rel="icon" type="image/png" href="ressources\gate-logo-(no bg).png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="anim.css">
+    <script src="scripts.js" defer></script>
+
+    <div class="bb3"><div class="bb2"><div class="bb1"><div class="bb2"><div class="bb3">
+        <h1 class="header">
+            <a href="en.index.html">Home</a>
+            <a href="en.about.html">About</a>
+            <a href="en.download.html">Download</a>
+            <a href="en.important.html">TO KNOW</a>
+        </h1>
+    </div></div></div></div></div>
+</head>
+
+<body>
+    
+    <div class="langselect">
+        <label for="lang-select">Langue :</label>
+        <select id="lang-select" onchange="location = this.value;">
+            <option value="en.important.html" selected>English</option>
+            <option value="important.html">Français</option>
+        </select>
+    </div>
+
+    <div class="title1">
+        Warning
+        <div class="corps1">
+            The game is not fully finished (the final boss is missing) and isn't currently 
+            available in English. In addition, the score can't be saved.
+        </div>
+    </div>
+    <div class="title1">
+        Launch instructions
+        <div class="corps1">
+            By executing "GatePC 1992", you will get a small menu. Everything you have to 
+            do is to click on the "Play" button. After a while, you should see 
+            ">>> Press Space to continue <<<" appearing. Everything you have to do is to press space
+            to launch the game.
+        <br>
+        <div class="corps1">
+            If you are not in the case above, make sure you are definitly in the Gatecode file
+            (if not, make "cd gatecode"), and if this is the case, enter "g".
+        </div>
+    </div>
+
+    <div>
+        <div class="title1">
+            Ingame objects
+        </div>
+
+        <div class="corps2">
+            <img src="ressources/clé180x140.png" class="elem1">
+            <div class="elem2">
+                Opens common doors
+            </div>
+        </div>
+
+        <div class="corps2">
+            <img src="ressources/food180x140.png" class="elem1">
+            <div class="elem2">
+                Immediatly regenerates a bit of life
+            </div>
+        </div>
+
+        <div class="corps2">
+            <img src="ressources/coffre180x140.png" class="elem1">
+            <div class="elem2">
+                Gives the player around 100 gold coins
+            </div>
+        </div>
+
+        <div class="corps2">
+            <img src="ressources/parchemin180x140.png" class="elem1">
+            <div class="elem2">
+                Contains a message for the player
+            </div>
+        </div>
+
+        <div class="corps2">
+            <img src="ressources/potion-force180x140.png" class="elem1">
+            <div class="elem2">
+                Allows you to take an additional item
+            </div>
+        </div>        
+
+        <div class="corps2">
+            <img src="ressources/bague180x140.png" class="elem1">
+            <div class="elem2">
+                Increases the score by 100 points
+            </div>
+        </div>
+
+        <div class="corps2">
+            <img src="ressources/spawner180x140.png" class="elem1">
+            <div class="elem2">
+                Spawns enemies at more or less regular intervals
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+<footer>
+    <div class="bt3"><div class="bt2"><div class="bt1"><div class="bt2"><div class="bt3">
+        <div class="footer">© 1992 Yann Le Tensorer</div>
+    </div></div></div></div></div>
+</footer>
+
+</html>

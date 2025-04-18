@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gate PC</title>
+    <link rel="icon" type="image/png" href="ressources\gate-logo-(no bg).png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="anim.css">
+    <script src="scripts.js" defer></script>
+
+    <div class="bb3"><div class="bb2"><div class="bb1"><div class="bb2"><div class="bb3">
+        <h1 class="header">
+            <a href="index.html">Accueil</a>
+            <a href="about.html">À propos</a>
+            <a href="download.html">Téléchargement</a>
+            <a href="important.html">À SAVOIR</a>
+        </h1>
+    </div></div></div></div></div>
+</head>
+
+<body>
+    
+    <div class="langselect">
+        <label for="lang-select">Langue :</label>
+        <select id="lang-select" onchange="location = this.value;">
+            <option value="important.html" selected>Français</option>
+            <option value="en.important.html">English</option>
+        </select>
+    </div>
+
+    <div class="title1">
+        ATTENTION
+        <div class="corps1">
+            Le jeu n'est pas totalement terminé (il manque le boss final) et n'est pour
+            l'instant pas disponible en anglais. De plus, le score n'est pas sauvegardé.
+        </div>
+    </div>
+    <div class="title1">
+        Instructions de lancement
+        <div class="corps1">
+            En executant "GatePC 1992", vous obtiendrez une petit menu. Tout ce que vous 
+            avez à faire est de cliquer sur le bouton "play". Après un peu d'attente, vous
+            devriez voir ">>>Press SPACE to continue<<<". Tout ce qu'il vous reste à faire
+            est d'appuyer sur espace pour lancer le jeu.
+        </div>
+        <br>
+        <div class="corps1">
+            Si vous n'êtes pas dans le cas de figure ci-dessus, assurez vous de bien être
+            dans le dossier GATECODE (si ce n'est pas le cas, faites "cd gatecode"), et si
+            c'est le cas, entrez "g".
+        </div>
+    </div>
+
+    <div>
+        <div class="title1">
+            Objets en jeu
+        </div>
+
+        <div class="corps2">
+            <img src="ressources/clé180x140.png" class="elem1">
+            <div class="elem2">
+                Permet d'ouvrir les portes normales
+            </div>
+        </div>
+
+        <div class="corps2">
+            <img src="ressources/food180x140.png" class="elem1">
+            <div class="elem2">
+                Régénère instantanément un peu de vie
+            </div>
+        </div>
+
+        <div class="corps2">
+            <img src="ressources/coffre180x140.png" class="elem1">
+            <div class="elem2">
+                Donne au joueur un montant d'environ 100 pièces d'or
+            </div>
+        </div>
+
+        <div class="corps2">
+            <img src="ressources/parchemin180x140.png" class="elem1">
+            <div class="elem2">
+                Contient un message pour le joueur
+            </div>
+        </div>
+
+        <div class="corps2">
+            <img src="ressources/potion-force180x140.png" class="elem1">
+            <div class="elem2">
+                Permet de porter un item supplémentaire
+            </div>
+        </div>        
+
+        <div class="corps2">
+            <img src="ressources/bague180x140.png" class="elem1">
+            <div class="elem2">
+                Fait augmenter le score de 100 points
+            </div>
+        </div>
+
+        <div class="corps2">
+            <img src="ressources/spawner180x140.png" class="elem1">
+            <div class="elem2">
+                Fait spawner des ennemis à intervalles plus ou moins réguliers
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+<footer>
+    <div class="bt3"><div class="bt2"><div class="bt1"><div class="bt2"><div class="bt3">
+        <div class="footer">© 1992 Yann Le Tensorer</div>
+    </div></div></div></div></div>
+</footer>
+
+</html>
